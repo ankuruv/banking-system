@@ -1,0 +1,111 @@
+body
+{
+	background-color:#e8f3f8;
+	margin:0;
+	font:georgian;
+}
+header
+{
+	background:black;
+    color:white;
+    padding:8px 0px 6px 40px;
+    height:45px;
+}
+header h1
+{
+	display:inline;
+	font-weight:400;
+	font-size:32px;
+	float:left;
+	margin-top:0px;
+	margin-right:12px;
+}
+nav ul{
+	padding:0px;
+	float:left;
+}
+nav ul li 
+{
+	display:inline-block;
+	list-style-type:none;
+	color:white;
+	float:left;
+	margin-right:12px;
+}
+nav ul li a
+{
+	color:white;
+	text-decoration:none;
+}
+.homered
+{
+	background-color:red;
+	padding:30px 10px 16px 10px;
+}
+.divider
+{
+	background-color:red;
+	height:5px;
+}
+.homeblack:hover
+{
+	background-color:blue;
+	padding:30px 10px 16px 10px;
+}
+h1
+{
+	text-align:center;
+	font-size:35px;
+	color:steelblue;
+}
+form
+{
+	margin:20px auto;
+	width:320px;
+	color:steelblue;
+}
+input
+{
+	padding:10px;
+	font-size:inherit;
+}
+input[type="text"]
+{
+	display:block;
+	margin-bottom:25px;
+	width:100%;
+	border:2px solid steelblue;
+}
+input[type="email"]
+{
+	display:block;
+	margin-bottom:25px;
+	width:100%;
+	border:2px solid steelblue;
+}
+input[type="password"]
+{
+	display:block;
+	margin-bottom:20px;
+	width:100%;
+	border:2px solid steelblue;
+}
+input[type="radio"]
+{
+	margin:0 8px 25px 18px;
+}
+input[type="submit"]
+{
+	width:344px;
+	height:40px;
+	border:none;
+	background:steelblue;
+	color:white;
+}
+input[type="radio"]:checked+label
+{
+	font-weight:bold;
+	font-size:18px;
+}
+	
+	
